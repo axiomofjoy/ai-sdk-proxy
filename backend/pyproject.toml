@@ -1,0 +1,14 @@
+[project]
+name = "ai-sdk-proxy-backend"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+    "pydantic-ai>=0.1.0",
+    "anthropic>=0.40.0",
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+package = false
